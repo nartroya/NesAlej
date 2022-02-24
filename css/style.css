@@ -523,5 +523,139 @@ seccionMarcasNE {
 /****************************************/
 /*######################################################################*/
 /*#################### ESTILOS GENERALES "CONTACTANOS" ####################*/
+/******************** Header  ********************/
+/* Cabecera */
+.sliderPrincipalUnoC {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sliderPrincipalDosC {
+    display: flex;
+    flex-direction: row;
+}
+.opcionContactoC {
+    width: 32%;
+    margin: 0 auto;
+    border: solid 1px #47D0AF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagenOpcionContactoC {
+    width: 100%;
+    text-align: right;
+}
+.tituloOpcionC {
+    display: flex;
+    flex-direction: row;
+}
+.objetoTituloOpcionC {
+    margin: auto;
+}
+#opcionTituloUnoC, #opcionTituloDosC, #opcionTituloTresC {
+    width: 80%;
+}
+#opcionImagenUnoC, #opcionImagenDosC, #opcionImagenTresC {
+    width: 20%;
+}
+.textoOpcionC li {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.objetoTituloOpcionC h2 {
+    color: #12CDD4;
+    margin-left: 10px;
+}
+/****************************************/
+/******************** MAIN  ********************/
+/* Formulario */
+.formularioC {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tituloFormularioC {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cajonFormularioC {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#opcionFormularioUnoC {
+    width: 60%;
+}
+#opcionFormularioDosC {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
 
+/* Dirección Mapa */
+.cajonDireccionC {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cajonImagenDireccionC {
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textoDireccionC {
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imagenDireccionC {
+    width: 100%;
+}
+
+/****************************************/
+/******************** Media Queries PRODUCTOS ********************/
+@media (min-width: 481px) and (max-width: 1023px) {
+    
+}
+@media (max-width: 480px) {
+    .sliderPrincipalDosC {
+        display: flex;
+        flex-direction: column;
+    }
+    .opcionContactoC {
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .cajonFormularioC {
+        display: flex;
+        flex-direction: column;
+    }
+    .cajonImagenDireccionC {
+        width: 90%;
+    }
+    .textoDireccionC {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #opcionFormularioUnoC, #opcionFormularioDosC {
+        margin: auto;
+        width: 90%;
+    }
+    #opcionFormularioDosC {
+        margin-top: 20px;
+    }
+}
+/****************************************/
 /*######################################################################*/
