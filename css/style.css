@@ -11,9 +11,9 @@ body {width: 100%;}
 
 /*Menu de Navegación*/
 nav {padding: 10px 5px 5px 5px; display: flex; flex-direction: row; text-decoration: none; height: 100px;}
-.menuNavegacionOpcion {margin: auto; font-size: 1.5rem;}
-.cajonimagenSocial {width: 50px; margin-top: auto; margin-bottom: auto; margin-left: 10px;}
-.imagenSocial {width: 50px;}
+.menuNavegacionOpcion {margin: auto; font-size: 1rem;}
+.cajonimagenSocial {width: 50px; margin-top: auto; margin-bottom: auto; margin-left: 0px; margin-right: 0px;}
+.imagenSocial {width: 30px;}
 .linea {height: 5px; background-color: #47D0AF;}
 a.menuOpcionLink {text-decoration: none; color: black;}
 a.menuOpcionLink:hover {color: #47D0AF;}
@@ -323,7 +323,7 @@ seccionMarcasNE {
 .imagenMarcasNE {width: 20%; margin: 20px;}
 
 /****************************************/
-/******************** Media Queries Index ********************/
+/******************** Media Queries NUESTRO EQUIPO ********************/
 @media (min-width: 481px) and (max-width: 1023px) {
     .cajonEquipoNE {
         border: solid 1px;
@@ -366,11 +366,160 @@ seccionMarcasNE {
 /*#################### ESTILOS GENERALES "PRODUCTO" ####################*/
 /******************** Header  ********************/
 /* Header */
-
+.sliderPrincipalP {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 /****************************************/
-/******************** Productos Cloud  ********************/
-/* Header */
+/******************** Secciones MAIN  ********************/
+/* Seccion Uno */
+#colorCajonUno {background-color: #2D9BF0;}
+#colorCajonDos {background-color: #47D0AF;}
+#colorCajonTres {background-color: #CEE741;}
+.seccionUnoP {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cajonSeccionUnoP {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.opcionCajonSeccionUnoP {
+    width: 32%;
+    margin: 0 auto;
+    
+}
+.imagenSeccionUnoP {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cajonTituloSeccionUnoP, .cajonTextoSeccionUnoP {
+    margin: 10px;
+    color: white;
+}
+/* Seccion Dos */
+#colorOnpremisesUno {background-color: #12CDD4;}
+#colorOnpremisesDos {background-color: #8FD14F;}
+.seccionDosP {
+    display: flex;
+    flex-direction: column;
+}
+.textoSeccionDosP {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.productosOnpremisesP {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cajonOnpremisesP {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cajonImagenOnpremiseP {
+    width: 30%;
+    margin: auto;
+}
+.cajonDescripcionOnpremisesP {
+    width: 70%;
+    margin: auto;
+}
+.imagenOnpremiseP {
+    width: 100%;
+}
+.tituloOnpremiseP, .textoOnpremiseP {
+    margin: 20px;
+}
+/* Seccion Tres */
+.seccionTresP {
+    width: 100%;
+}
 
+.botonSeccionTresP {
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.botonSeccionTresP span {
+    height: 60px;
+    padding: 20px 100px;
+    background-color: #47D0AF;
+    border-radius: 8px;
+}
+.botonSeccionTresP span a {
+    text-decoration: none;
+    color: black;
+}
+.botonSeccionTresP span:hover {
+    background-color: #8FD14F;
+}
+/****************************************/
+/******************** Media Queries PRODUCTOS ********************/
+@media (min-width: 481px) and (max-width: 1023px) {
+    .textoSliderPrincipalP {
+        padding: 10px;
+    }
+    .textoSeccionUnoP p {
+        padding: 10px;
+    }
+    .textoSeccionDosP {
+        margin: 10px;
+    }
+    .cajonImagenOnpremiseP {
+        width: 50%;
+        margin: auto;
+    }
+    .textoSeccionTresP {
+        margin: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .cajonSeccionUnoP {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .opcionCajonSeccionUnoP {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .textoSliderPrincipalP {
+        padding: 10px;
+    }
+    .textoSeccionUnoP p {
+        padding: 10px;
+    }
+    .textoSeccionDosP {
+        margin: 10px;
+    }
+    .cajonOnpremisesP {
+        width: 95%;
+    }
+    .cajonImagenOnpremiseP {
+        width: 50%;
+        margin: auto;
+    }
+    .botonSeccionTresP {
+        text-align: center;
+    }
+    .textoSeccionTresP {
+        margin: 10px;
+    }
+}
 /****************************************/
 /*######################################################################*/
 /*#################### ESTILOS GENERALES "CONTACTANOS" ####################*/
